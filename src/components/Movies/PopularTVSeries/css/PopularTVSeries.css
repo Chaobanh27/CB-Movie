@@ -1,0 +1,85 @@
+/* .popular-tv-series{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  scroll-behavior: smooth;
+  overflow: auto;
+  padding: 10px 0;
+}
+.popular-tv-series::-webkit-scrollbar-track {
+  background-color: #424242;
+}
+.popular-tv-series::-webkit-scrollbar {
+  height: 8px;
+  background-color: #686868;
+}
+.popular-tv-series::-webkit-scrollbar-thumb {
+  background-color: #555;
+} */
+.popular-tv-series .slick-slide{
+  padding: 10px;
+}
+
+.popular-tv-series .card{
+  cursor: pointer;
+  border: 0 !important;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  text-decoration: none;
+}
+.popular-tv-series .card:hover .overlay {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.477);
+}
+.popular-tv-series .card .card-body{
+  text-align: center;
+  max-height: 64px;
+}
+.popular-tv-series .card .card-body .card-title{
+  white-space:pre;
+  overflow:hidden;
+  text-overflow: ellipsis;
+}
+.popular-tv-series .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+.popular-tv-series .overplay-details{
+  position: relative;
+  height: 100%;
+}
+.popular-tv-series .poster-title {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 70%;
+  left: 10px;
+}
+.popular-tv-series .poster-vote{
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 85%;
+  left: 10px;
+}
+.popular-tv-series .imdb{
+  background-color: #f3ce13;
+  color: black;
+  padding: 3px 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 1200px){
+  .popular-tv-series .overlay{
+    display: none;
+  }
+}

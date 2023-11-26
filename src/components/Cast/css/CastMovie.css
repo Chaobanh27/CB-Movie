@@ -1,0 +1,31 @@
+.cast-movies .container{
+    padding: 25px;
+}
+.cast-movies .container h3{
+    color: white;
+}
+
+.cast-movies .slick-slide{
+    padding: 10px;
+}
+
+.cast-movies .card{
+    cursor: pointer;
+    border: 0 !important;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    text-decoration: none;
+}
+
+.cast-movies .card .card-body{
+    text-align: center;
+    max-height: 64px;
+  }
+.cast-movies .card .card-body .card-title{
+    white-space:pre;
+    overflow:hidden;
+    text-overflow: ellipsis;
+  }
+.cast-movies .card .card-body{
+    text-align: center;
+  }

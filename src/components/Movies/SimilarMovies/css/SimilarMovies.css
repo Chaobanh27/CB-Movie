@@ -1,0 +1,31 @@
+.similar-movies .container{
+    padding: 25px;
+}
+.similar-movies .container h3{
+    color: white;
+}
+
+.similar-movies .slick-slide{
+    padding: 10px;
+}
+
+.similar-movies .card{
+    cursor: pointer;
+    border: 0 !important;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    text-decoration: none;
+}
+
+.similar-movies .card .card-body{
+    text-align: center;
+    max-height: 64px;
+  }
+.similar-movies .card .card-body .card-title{
+    white-space:pre;
+    overflow:hidden;
+    text-overflow: ellipsis;
+  }
+.similar-movies .card .card-body{
+    text-align: center;
+  }

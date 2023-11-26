@@ -1,0 +1,20 @@
+.filter-movies .card{
+    cursor: pointer;
+    border: 0 !important;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    text-decoration: none;
+  }
+  
+  .filter-movies .card .card-body{
+    text-align: center;
+    max-height: 64px;
+  }
+  .filter-movies .card .card-body .card-title{
+    white-space:pre;
+    overflow:hidden;
+    text-overflow: ellipsis;
+  }
+  .filter-movies .card .card-body{
+    text-align: center;
+  }

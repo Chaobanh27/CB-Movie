@@ -1,0 +1,84 @@
+/* .upcoming-movies{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  scroll-behavior: smooth;
+  overflow: auto;
+  padding: 10px 0;
+}
+.upcoming-movies::-webkit-scrollbar-track {
+  background-color: #424242;
+}
+.upcoming-movies::-webkit-scrollbar {
+  height: 8px;
+  background-color: #686868;
+}
+.upcoming-movies::-webkit-scrollbar-thumb {
+  background-color: #555;
+} */
+.upcoming-movies .slick-slide{
+  padding: 10px;
+}
+.upcoming-movies .card{
+  cursor: pointer;
+  border: 0 !important;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  text-decoration: none;
+}
+.upcoming-movies .card:hover .overlay {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.477);
+}
+.upcoming-movies .card .card-body{
+  text-align: center;
+  max-height: 64px;
+}
+.upcoming-movies .card .card-body .card-title{
+  white-space:pre;
+  overflow:hidden;
+  text-overflow: ellipsis;
+}
+.upcoming-movies .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+.upcoming-movies .overplay-details{
+  position: relative;
+  height: 100%;
+}
+.upcoming-movies .poster-title {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 70%;
+  left: 10px;
+}
+.upcoming-movies .poster-vote{
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 85%;
+  left: 10px;
+}
+.upcoming-movies .imdb{
+  background-color: #f3ce13;
+  color: black;
+  padding: 3px 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 1200px){
+  .upcoming-movies .overlay{
+    display: none;
+  }
+}

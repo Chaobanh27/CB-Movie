@@ -1,0 +1,69 @@
+/* .rated-movies{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  scroll-behavior: smooth;
+  overflow: auto;
+  padding: 10px 0;
+}
+.rated-movies::-webkit-scrollbar-track {
+  background-color: #424242;
+}
+.rated-movies::-webkit-scrollbar {
+  height: 8px;
+  background-color: #686868;
+}
+.rated-movies::-webkit-scrollbar-thumb {
+  background-color: #555;
+} */
+.rated-movies .card{
+  cursor: pointer;
+}
+.rated-movies .card:hover .overlay {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.477);
+}
+
+.rated-movies .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+.rated-movies .overplay-details{
+  position: relative;
+  height: 100%;
+}
+.rated-movies .poster-title {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 70%;
+  left: 10px;
+}
+.rated-movies .poster-vote{
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 85%;
+  left: 10px;
+}
+.rated-movies .imdb{
+  background-color: #f3ce13;
+  color: black;
+  padding: 3px 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 1200px){
+  .rated-movies .overlay{
+    display: none;
+  }
+}

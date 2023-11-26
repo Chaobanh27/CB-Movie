@@ -1,0 +1,26 @@
+body{
+  background-color: #151923;
+}
+.search-results{
+  background-color: #151923;
+}
+.search-results .card{
+  cursor: pointer;
+  border: 0 !important;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  text-decoration: none;
+}
+
+.search-results .card .card-body{
+  text-align: center;
+  max-height: 64px;
+}
+.search-results .card .card-body .card-title{
+  white-space:pre;
+  overflow:hidden;
+  text-overflow: ellipsis;
+}
+.search-results .card .card-body{
+  text-align: center;
+}

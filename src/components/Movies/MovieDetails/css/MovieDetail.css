@@ -1,0 +1,37 @@
+.movie-detail {
+    min-height: 80vh;
+    display: grid;
+    place-content: center;
+    background-blend-mode: darken;
+  }
+.movie-detail .card{
+    background-color: rgba(255, 255, 255, 0);
+    color: white !important;
+    border: none;
+  }
+
+.cast .container{
+    padding: 25px;
+}
+.cast .container a{
+  text-decoration: none !important;
+}
+.cast h3{
+  color: white;
+}
+.cast .card{
+  border: 0 !important;
+  background-color: rgba(255, 255, 255, 0);
+}
+.cast .slick-slide{
+  padding: 20px;
+}
+
+.cast .card .card-body{
+  padding: 10px 5px;
+}
+.cast .card .card-title{
+  font-size: small;
+  font-weight: bold;
+  color: white;
+}
