@@ -15,7 +15,7 @@ import { MovieContext } from "./MyContext";
 function Header() {
   const navigate = useNavigate()
   const [searchValue, setSearchValue] = useState('');
-  const api_key = "474226313b15cb8eb2da7d23a4b6d38d";
+  const api_key = "";
   const movieContext = useContext(MovieContext)
 
   const handleChange = (e) => {
