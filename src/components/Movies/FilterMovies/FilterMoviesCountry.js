@@ -12,7 +12,7 @@ export const FilterMoviesCountry= (props) => {
   const [itemOffset, setItemOffset] = useState(0);
   let itemsPerPage = props.itemsPerPage;
   const { countryId } = useParams();
-  const api_key = "474226313b15cb8eb2da7d23a4b6d38d";
+  const api_key = "";
 
   useEffect(() => {
     axios

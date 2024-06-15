@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export const NowPlaying = (props) => {
   const [data, setData] = useState([]);
   const [visible, setVisible] = useState();
-  const api_key = "474226313b15cb8eb2da7d23a4b6d38d";
+  const api_key = "";
 
   const setLoadMore = props.setLoadMore;
   useEffect(() => {

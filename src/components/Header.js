@@ -6,7 +6,6 @@ import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import {BsSearch} from "react-icons/bs"
 import { useNavigate } from "react-router-dom";
@@ -15,7 +14,7 @@ import { MovieContext } from "./MyContext";
 function Header() {
   const navigate = useNavigate()
   const [searchValue, setSearchValue] = useState('');
-  const api_key = "474226313b15cb8eb2da7d23a4b6d38d";
+  const api_key = "";
   const movieContext = useContext(MovieContext)
 
   const handleChange = (e) => {

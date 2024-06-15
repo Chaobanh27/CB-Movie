@@ -9,7 +9,7 @@ export const SelectGenre = () => {
     const [data,setData] = useState([])
     const navigate = useNavigate()
     const [selectedValue, setSelectedValue] = useState(0);
-    const api_key = "474226313b15cb8eb2da7d23a4b6d38d";
+    const api_key = "";
 
     useEffect(() => {
         axios

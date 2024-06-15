@@ -6,7 +6,7 @@ import { useRef } from "react";
 
 function PopularTVSeries() {
   const [data, setData] = useState([]);
-  const api_key = "474226313b15cb8eb2da7d23a4b6d38d";
+  const api_key = "";
 
   const sliderRef = useRef(null);
 
